@@ -5,14 +5,13 @@ function Load() {
     <MagnifyingGlass
       visible={true}
       height="80"
-      width="auto"
+      width="80"
       ariaLabel="MagnifyingGlass-loading"
-      wrapperStyle={{}}
-      wrapperClass="MagnifyingGlass-wrapper"
+      wrapperStyle={{ margin: "0 auto" }}
+      wrapperClass=""
       glassColor = '#c0efff'
-      color='#0000ff'      
+      color='#0000ff'
     />
-  
   );
 }
 
